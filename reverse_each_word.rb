@@ -3,6 +3,6 @@ def reverse_each_word(string)
   array.each do |word|
     puts word.reverse!
   end
-  return array.join()
+  return array.join("")
 end
 reverse_each_word("Hello there, and how are you?")
